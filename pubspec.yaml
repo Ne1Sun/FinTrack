@@ -1,0 +1,42 @@
+name: fintrack
+description: "A personal finance and investment manager built with Flutter and SQLite."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.2
+
+  # Persistence & Security
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  path_provider: ^2.1.2
+  flutter_secure_storage: ^9.0.0
+  local_auth: ^2.1.8
+
+  # Financial & Utilities
+  intl: ^0.19.0
+  fl_chart: ^0.68.0
+  csv: ^6.0.0
+  file_picker: ^8.0.0
+  uuid: ^4.3.3
+
+  # UI Elements
+  flutter_spinkit: ^5.2.0
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
